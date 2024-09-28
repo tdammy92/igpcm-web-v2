@@ -1,5 +1,6 @@
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import LandingPage from '../pages/LandingPage';
 
 
 
@@ -14,6 +15,7 @@ const MainRoutes = () => {
     return (
         <Router>
             <Routes>
+                <Route path='/' element={<LandingPage />} />
                 {/* Public Route */}
                 {/* <Route path="/" element={!isAuthenticated ? <LoginPage /> : <Landing />} />
 
