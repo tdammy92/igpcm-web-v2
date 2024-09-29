@@ -1,17 +1,18 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import Hamburger from "../../assets/svgs/Hamburger";
+import Logo from '../../assets/images/IGPCM_NewLogo.png';
 
 const Header = () => {
   const [hidden, setHidden] = useState(true);
   return (
     <header>
-      <nav className="bg-white px-2 sm:px-4 md:px-20">
+      <nav className="bg-white h-12 py-3 md:py-0 md:h-10 px-2 sm:px-4 md:px-20">
         <div className="flex flex-wrap items-center justify-between mx-auto w-full">
           <Link to="/" className="flex items-center">
-
-            <span className="self-center text-2xl font-semibold whitespace-nowrap text-green-500">
-              Igpcm
+            <img src={Logo} alt="Igpcm logo" className="flex w-8 h-8 md:w-12 md:h-12" />
+            <span className="self-center text-2xl font-semibold whitespace-nowrap text-green-900">
+              IGPCM
             </span>
           </Link>
           <div id="mobile-nav" className="flex md:order-2">
