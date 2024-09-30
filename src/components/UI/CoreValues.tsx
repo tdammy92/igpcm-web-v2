@@ -18,7 +18,7 @@ const CoreValues = () => {
 
       <div className="grid md:grid-cols-2 gap-8 w-[90%] mx-auto">
         <motion.div
-          variants={fadeIn("left", 0.4)}
+          variants={fadeIn("left", 2.5)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.5 }}
@@ -36,7 +36,7 @@ const CoreValues = () => {
           </div>
         </motion.div>
         <motion.div
-          variants={fadeIn("right", 0.4)}
+          variants={fadeIn("right", 2.5)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.5 }}
@@ -53,7 +53,7 @@ const CoreValues = () => {
           </div>
         </motion.div>
         <motion.div
-          variants={fadeIn("left", 0.4)}
+          variants={fadeIn("left", 2.5)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.5 }}
@@ -71,7 +71,7 @@ const CoreValues = () => {
           </div>
         </motion.div>
         <motion.div
-          variants={fadeIn("left", 0.4)}
+          variants={fadeIn("left", 2.5)}
           initial="right"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.5 }}
@@ -89,7 +89,7 @@ const CoreValues = () => {
           </div>
         </motion.div>
         <motion.div
-          variants={fadeIn("left", 0.4)}
+          variants={fadeIn("left", 2.5)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.5 }}
@@ -106,7 +106,7 @@ const CoreValues = () => {
           </div>
         </motion.div>
         <motion.div
-          variants={fadeIn("right", 0.4)}
+          variants={fadeIn("right", 2.5)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.5 }}
